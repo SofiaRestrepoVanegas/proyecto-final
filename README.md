@@ -22,3 +22,23 @@ El proyecto permite:
 
 - ChatGPT 
 - Gemini
+
+##  2. Instrucciones de Instalación y Despliegue Local
+
+Para clonar, instalar y poner a correr este proyecto en el entorno local, ejecutamos los siguientes comandos:
+
+### Paso A: Clonar el repositorio
+```bash
+git clone https://github.com/SofiaRestrepoVanegas/proyecto-final
+
+### Paso B: Navegar al directorio del proyecto
+Bash
+cd examen-basketball-react
+
+### Paso C: Instalar las dependencias del sistema
+Bash
+npm install
+
+### Paso D: Iniciar el servidor de desarrollo
+Bash
+npm run dev
