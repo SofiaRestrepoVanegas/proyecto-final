@@ -221,7 +221,7 @@ Esto hace que la aplicacion no haga busquedas innecesarias en cada letra.
 
 ---
 
-### e) ¿Cómo funciona localStorage con React?
+### e ¿Cómo funciona localStorage con React?
 
 Explicación teórica:
 El "localStorage" es una pequeña base de datos que viene integrada dentro de todos los navegadores web (como Google Chrome o Edge). Sirve para guardar información en la computadora del usuario de forma permanente. A diferencia de las variables de estado normales que se borran si refrescamos la pantalla o cerramos la pestaña, los datos guardados en "localStorage" se quedan ahí guardados hasta que los borremos a propósito.
