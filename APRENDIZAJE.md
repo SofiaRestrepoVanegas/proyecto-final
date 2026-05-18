@@ -1,7 +1,7 @@
 ### a
  ¿Qué es useState y cuándo usarlo?
 
-**Explicación teórica sencilla:**
+Explicación teórica:
 El useState es un hook de React que sirve para crear una "variable de estado", a diferencia de una variable normal de JavaScript (como un "let" o un "const"), cuando el valor de una variable de estado cambia, React se da cuenta automáticamente y vuelve a dibujar (renderizar) la pantalla para mostrar el nuevo dato. 
 
 Lo usamos siempre que un componente necesite recordar algún dato que cambie por las acciones del usuario, como escribir en un buscador, hacer clic en un botón, cambiar un color o abrir una ventana.
@@ -32,3 +32,4 @@ const [debouncedSearch, setDebouncedSearch] = useState('');
 Usamos un estado que inicialmente está vacío ("null"). Cuando el usuario hace clic sobre una fila de la tabla para ver a un deportista, el estado guarda los datos de ese jugador específico y eso hace que la ventana emergente aparezca con su información.
 // Estado para controlar el jugador seleccionado en el modal
 const [selectedPlayer, setSelectedPlayer] = useState(null);
+
