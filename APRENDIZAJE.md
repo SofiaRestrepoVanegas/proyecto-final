@@ -1,8 +1,8 @@
 # 📚 Aprendizaje del proyecto 
 
-### a. ¿Que es useState y cuando usarlo?
+## a. ¿Que es useState y cuando usarlo?
 
-## 📖 Explicacion
+### 📖 Explicacion
 El useState es un hook de React que sirve para crear una "variable de estado", a diferencia de una variable normal de JavaScript (como un "let" o un "const"), cuando el valor de una variable de estado cambia, React se da cuenta automáticamente y vuelve a dibujar (renderizar) la pantalla para mostrar el nuevo dato. 
 
 Lo usamos siempre que un componente necesite recordar algún dato que cambie por las acciones del usuario, como escribir en un buscador, hacer clic en un boton, cambiar un color o abrir una ventana.
@@ -34,9 +34,9 @@ Usamos un estado que inicialmente esta vacio ("null"). Cuando el usuario hace cl
 // Estado para controlar el jugador seleccionado en el modal
 const [selectedPlayer, setSelectedPlayer] = useState(null);
 
-### b. ¿Qué es useEffect y sus casos de uso?
+## b. ¿Qué es useEffect y sus casos de uso?
 
-## 📖 Explicacion
+### 📖 Explicacion
 El useEffect es un hook que sirve para ejecutar acciones automaticas dentro de un componente.
 Estas acciones se llaman efectos secundarios porque ocurren despues del render.
 
@@ -48,7 +48,7 @@ Se utiliza para:
 - trabajar con localStorage
 - ejecutar código automáticamente
 ---
-# 🔄 Ciclo de vida
+### 🔄 Ciclo de vida
 
 El useEffect reemplaza metodos antiguos de React como:
 
