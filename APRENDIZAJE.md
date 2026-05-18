@@ -182,7 +182,7 @@ const stats = useMemo(() => {
 }, [filteredPlayers]); // Solo se vuelve a calcular si filteredPlayers cambia
 ```
 
-## ¿Cómo funciona el cleanup en useEffect?
+## D ¿Cómo funciona el cleanup en useEffect?
 
 ### 📖 Explicacion
 
@@ -220,3 +220,39 @@ useEffect(() => {
 Esto hace que la aplicacion no haga busquedas innecesarias en cada letra.
 
 ---
+
+### e) ¿Cómo funciona localStorage con React?
+
+Explicación teórica:
+El "localStorage" es una pequeña base de datos que viene integrada dentro de todos los navegadores web (como Google Chrome o Edge). Sirve para guardar información en la computadora del usuario de forma permanente. A diferencia de las variables de estado normales que se borran si refrescamos la pantalla o cerramos la pestaña, los datos guardados en "localStorage" se quedan ahí guardados hasta que los borremos a propósito.
+
+En React, se suele combinar con el hook "useEffect" para que, cada vez que un estado cambie, ese nuevo valor se guarde automáticamente en el navegador.
+
+---
+
+### 📋 Ejemplo de persistencia de nuestro proyecto:
+
+En nuestro proyecto de baloncesto, usamos "localStorage" para guardar la lista de jugadores favoritos que el usuario selecciona. Así, si la persona sale de la página y vuelve al día siguiente, su lista de favoritos sigue ahí intacta.
+
+En el archivo "App.jsx" implementamos esto en dos momentos clave:
+
+#### 1. Para cargar los favoritos al abrir la página:
+Cuando la aplicación arranca, le decimos a React que revise si ya hay favoritos guardados en el navegador. Usamos "JSON.parse" porque el navegador guarda todo como texto, y necesitamos convertirlo de nuevo en un arreglo de JavaScript.
+
+```javascript
+// Al iniciar el estado, buscamos si ya existen favoritos en el localStorage
+const [favorites, setFavorites] = useState(() => {
+  const savedFavorites = localStorage.getItem("basketball_favorites");
+  return savedFavorites ? JSON.parse(savedFavorites) : [];
+});
+
+#### 2. Para guardar los favoritos automáticamente cuando cambian:
+Usamos un "useEffect" que se queda vigilando el estado "favorites". Cada vez que el usuario agrega o quita un jugador de su lista, este efecto se activa y sobreescribe los datos en el navegador usando "JSON.stringify" (para convertir el arreglo en texto plano).
+
+// Cada vez que la lista de favoritos cambia, se actualiza en el localStorage del navegador
+useEffect(() => {
+  localStorage.setItem("basketball_favorites", JSON.stringify(favorites));
+}, [favorites]); // Se ejecuta solo cuando cambia el estado de favoritos
+
+🤖 IA Utilizada / Coautor de IA:
+ Google Gemini,ChatGPT
