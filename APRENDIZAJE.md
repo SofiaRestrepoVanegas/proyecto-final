@@ -41,6 +41,7 @@ El useEffect es un hook que sirve para ejecutar acciones automaticas dentro de u
 Estas acciones se llaman efectos secundarios porque ocurren despues del render.
 
 Se utiliza para:
+
 - guardar datos
 - hacer búsquedas
 - usar temporizadores
