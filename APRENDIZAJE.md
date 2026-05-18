@@ -51,6 +51,7 @@ Se utiliza para:
 # 🔄 Ciclo de vida
 
 El useEffect reemplaza metodos antiguos de React como:
+
 - componentDidMount
 - componentDidUpdate
 - componentWillUnmount
