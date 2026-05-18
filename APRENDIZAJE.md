@@ -7,6 +7,7 @@ El useState es un hook de React que sirve para crear una "variable de estado", a
 
 Lo usamos siempre que un componente necesite recordar algún dato que cambie por las acciones del usuario, como escribir en un buscador, hacer clic en un boton, cambiar un color o abrir una ventana.
 
+
 ---
 
 ### 💡 Ejemplos de nuestro proyecto:
