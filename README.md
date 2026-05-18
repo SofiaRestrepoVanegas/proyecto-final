@@ -165,40 +165,50 @@ BASKETBALL/
 ## ▶️ Ejecucion del proyecto en la terminal
 
 Se muestra la ejecucion.
+
 ![Ejecucion](./public/screenshots/Ejecucion.png)
 
 ### 🏠 Pagina principal
 
 Se muestra vista de la aplicacion 
+
 ![Pagina principal](./public/screenshots/paginap1.png)
+
 ![Pagina principal](./public/screenshots/paginap2.png)
 
 ### 🔎 Sistema de busqueda
 
 Muestra la busqueda dinamica de jugadores en tiempo real.
-![Barra busqueda](./public/screenshots/barrabusqueda.png)
+
+![Barra busqueda](./public/screenshots/Barrabusqueda.png)
 
 ### 📊 Tabla de jugadores y paginacion
 
 Muestra la tabla interactiva con ordenamiento y paginacion.
+
 ![Tabla](./public/screenshots/tablapaginacion.png)
 
 ### ⭐ Sistema de favoritos
 
 Muestra los jugadores marcados como favoritos.
+
 ![Favoritos](./public/screenshots/favoritos.png)
 
 ### 🌙 Cambio de tema
 
 Muetsra el modo oscuro o claro funcionando.
+
 ![Modo oscuro](./public/screenshots/modooscu.png)
+
 ![Modo claro](./public/screenshots/modocla.png)
 
 
 ### 📱 Vista responsive
+
 Muetsra la aplicacion en adaptada a celular o pantalla pequeña.
 ![Responsive](./public/screenshots/responsive.png)
 
 ### link al deploy de netlify
 para poner la app en línea, conectamos el repositorio de GitHub con Netlify, aqui en este link ya podemos visualizar
 https://basketball-proyect.netlify.app/
+
