@@ -1,0 +1,22 @@
+.table-box {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 20px;
+  background: white;
+  color: black;
+}
+
+.table-box th {
+  background: #11182f;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.favorite-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}

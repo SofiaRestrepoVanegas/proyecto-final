@@ -1,0 +1,12 @@
+tr td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.even {
+  background: #e3f2fd;
+}
+
+.odd {
+  background: #fff3e0;
+}

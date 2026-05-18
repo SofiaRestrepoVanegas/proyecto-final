@@ -1,0 +1,22 @@
+.history {
+  margin-top: 30px;
+}
+
+.history__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history__buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.history__buttons button {
+  border: none;
+  background: #1f2940;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
