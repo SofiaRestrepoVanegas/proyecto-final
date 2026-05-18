@@ -15,6 +15,7 @@
   border-radius: 12px;
   background: #1f2940;
   color: white;
+  outline: none;
 }
 
 .search button {
@@ -29,4 +30,5 @@
 .search p {
   margin-top: 10px;
   color: white;
+  font-size: 14px;
 }

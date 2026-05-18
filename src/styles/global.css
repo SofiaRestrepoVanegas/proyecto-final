@@ -6,9 +6,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #111827;
-}
-
-button {
-  cursor: pointer;
+  background:radial-gradient(circle at top left, #3f2b96, #090018 60%);
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden;
 }

@@ -5,6 +5,9 @@
 .history__top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
 .history__buttons {
@@ -17,6 +20,12 @@
   border: none;
   background: #1f2940;
   color: white;
-  padding: 10px;
+  padding: 10px 14px;
   border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.history__buttons button:hover {
+  background: #2b3857;
 }

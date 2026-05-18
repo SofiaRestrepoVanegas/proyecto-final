@@ -18,6 +18,7 @@
   border: none;
   padding: 8px 12px;
   border-radius: 8px;
+  outline: none;
 }
 
 .pagination__buttons {
@@ -33,6 +34,7 @@
   padding: 8px 14px;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .pagination button:hover {

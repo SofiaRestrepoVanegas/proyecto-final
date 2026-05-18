@@ -159,3 +159,42 @@ BASKETBALL/
 * **StatsPanel.jsx**: Es el panel de arriba que muestra los totales de puntos, asistencias y rebotes del equipo para que parezca un tablero de estadísticas bien completo.
 * **ThemeToggle.jsx**: Es el botón que cambia los colores de la página si el usuario quiere usar el modo oscuro o el modo claro.
 * **players.js**: Es donde guardamos los datos de cada jugador en una lista para no tener que escribirlos a mano directamente dentro de la tabla.
+```
+# 📸 Capturas de pantalla de las funcionalidades principales
+
+## ▶️ Ejecucion del proyecto en la terminal
+
+Se muestra la ejecucion.
+![Ejecucion](./public/screenshots/Ejecucion.png)
+
+### 🏠 Pagina principal
+
+Se muestra vista de la aplicacion 
+![Pagina principal](./public/screenshots/paginap1.png)
+![Pagina principal](./public/screenshots/paginap2.png)
+
+### 🔎 Sistema de busqueda
+
+Muestra la busqueda dinamica de jugadores en tiempo real.
+![Barra busqueda](./public/screenshots/barrabusqueda.png)
+
+### 📊 Tabla de jugadores y paginacion
+
+Muestra la tabla interactiva con ordenamiento y paginacion.
+![Tabla](./public/screenshots/tablapaginacion.png)
+
+### ⭐ Sistema de favoritos
+
+Muestra los jugadores marcados como favoritos.
+![Favoritos](./public/screenshots/favoritos.png)
+
+### 🌙 Cambio de tema
+
+Muetsra el modo oscuro o claro funcionando.
+![Modo oscuro](./public/screenshots/modooscu.png)
+![Modo claro](./public/screenshots/modocla.png)
+
+
+### 📱 Vista responsive
+Muetsra la aplicacion en adaptada a celular o pantalla pequeña.
+![Responsive](./public/screenshots/responsive.png)
