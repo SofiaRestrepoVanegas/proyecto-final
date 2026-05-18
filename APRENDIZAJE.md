@@ -143,7 +143,7 @@ Esto mejora el rendimiento de la aplicacion.
 ---
 
 
-### c ¿Qué es useMemo y cuándo usarlo?
+## c ¿Qué es useMemo y cuándo usarlo?
 
 Explicación teórica:
 El "useMemo" es un hook de React que sirve para optimizar el rendimiento de la aplicación. Su función es "memorizar" el resultado de un cálculo matemático o un proceso pesado para que no se tenga que volver a repetir innecesariamente cada vez que el componente se vuelve a dibujar (renderizar). Solo vuelve a hacer el cálculo si los datos de los que depende cambian.
@@ -180,3 +180,43 @@ const stats = useMemo(() => {
     avgAssists: (totalAssists / filteredPlayers.length).toFixed(1)
   };
 }, [filteredPlayers]); // Solo se vuelve a calcular si filteredPlayers cambia
+```
+
+## ¿Cómo funciona el cleanup en useEffect?
+
+### 📖 Explicacion
+
+El cleanup es una funcion que limpia procesos antes de volver a ejecutar un efecto o cuando el componente desaparece.
+Ayuda a:
+- mejorar rendimiento
+- evitar timers repetidos
+- evitar errores
+- prevenir fugas de memoria
+
+---
+
+## ✅ Ejemplo del debounce
+
+```jsx
+useEffect(() => {
+
+  const timer = setTimeout(() => {
+    setDebouncedSearch(searchTerm);
+  }, 300);
+
+  return () => clearTimeout(timer);
+
+}, [searchTerm]);
+```
+
+## 🔍 Funcionamiento
+
+- el usuario escribe
+- se crea un timer de 300ms
+- si sigue escribiendo:
+  - el timer anterior se elimina
+- solo se ejecuta la búsqueda final
+
+Esto hace que la aplicacion no haga busquedas innecesarias en cada letra.
+
+---
