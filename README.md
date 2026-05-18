@@ -206,5 +206,9 @@ Muetsra el modo oscuro o claro funcionando.
 ### 📱 Vista responsive
 
 Muetsra la aplicacion en adaptada a celular o pantalla pequeña.
-
 ![Responsive](./public/screenshots/responsive.png)
+
+### link al deploy de netlify
+para poner la app en línea, conectamos el repositorio de GitHub con Netlify, aqui en este link ya podemos visualizar
+https://basketball-proyect.netlify.app/
+
