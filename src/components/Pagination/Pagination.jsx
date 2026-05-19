@@ -10,10 +10,7 @@ function Pagination({currentPage,totalPages,onPageChange,itemsPerPage,setItemsPe
         }
         -
         {
-          Math.min(
-            currentPage * itemsPerPage,
-            totalItems
-          )
+          Math.min( currentPage * itemsPerPage,totalItems)
         }
         {' '}de {totalItems}
       </div>
